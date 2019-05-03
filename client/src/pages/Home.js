@@ -2,14 +2,14 @@
 import React, { Component } from 'react';
 
 //API
-import API from '../utils/API';
+import API from '../services/API';
 
 //Components
 import Loading from '../components/Loading';
 import ActiveFriends from '../components/ActiveFriends';
 import InactiveFriends from '../components/InactiveFriends';
 
-class Splash extends Component {
+class Home extends Component {
     constructor(props) {
       super(props)
       this.state = {
@@ -123,4 +123,4 @@ class Splash extends Component {
     }
   }
 
-  export default Splash;
+  export default Home;

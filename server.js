@@ -24,7 +24,7 @@ console.log(`hey this is the server.js`);
 
 // mongoDB connection
 //*******UPDATE COLLECTION NAME
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/friends');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/reactlessonfriends');
 
 // Listener
 app.listen(PORT, () => {
